@@ -11,15 +11,15 @@ sudo raspi-config
 
 # Windows下客户端
 
-推荐使用putty这个免费开源的SSH客户端。[下载地址](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+推荐使用putty这个免费开源的SSH客户端。[下载地址](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)  
 
 ![putty](1/putty.png)    
-   在红框处填入树莓派的IP地址，点击右下角的Open即可。
-不过，putty的默认配置并非最优，需要做以下修改：
+   在红框处填入树莓派的IP地址，点击右下角的Open即可。  
+不过，putty的默认配置并非最优，需要做以下修改：  
 1. 解决无法使用小键盘的问题  
   ![putty1](1/putty1.png)  
-2. 自动登录账号，解决无法使用home和end键的问题  
-  ![putty2](1/putty2.png)
+2. 自动登录账号，解决无法使用home和end键的问题   
+  ![putty2](1/putty2.png)  
   不过，依旧需要输入账号密码。至于如何免密码登录，见后文。
 
 3. 保存设置
